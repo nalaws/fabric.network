@@ -165,7 +165,7 @@ function networkClean() {
   #Cleanup images
   removeUnwantedImages
   # remove orderer block and other channel configuration transactions and certs
-  docker run --rm -v $(pwd):/data hyperledger/fabric-peer sh -c 'cd /data && rm -rf organizations/peerOrganizations organizations/fabric-ca/org1/tls-cert.pem'
+  docker run --rm -v $(pwd):/data hyperledger/fabric-peer sh -c 'cd /data && rm -rf organizations/peerOrganizations organizations/fabric-ca/org2/tls-cert.pem'
 }
 
 # Obtain the OS and Architecture string that will be used to select the correct

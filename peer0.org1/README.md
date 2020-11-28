@@ -29,3 +29,6 @@ Creating peer0.org1.example.com ... done
 ./peer.sh clean
 ```
 会清理掉同docker-compose网络服务容器,并删除该服务的外挂文件
+
+### 输出
+peer服务启动后，拷贝所有peer的msp文件夹到orderer节点相应目录下。如peer节点organizations/peerOrganizations/org1.example.com/msp到orderer节点organizations/peerOrganizations/org1.example.com/
