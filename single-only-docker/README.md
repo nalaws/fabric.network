@@ -18,7 +18,7 @@ fabric 无docker-compose组网
 ```
 ./ca_org1.sh up
 ./ca_org2.sh up
-./ca_orderer.sh
+./ca_orderer.sh up
 ```
 
 ### 启动peer服务
